@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nager.Date API LongWeekend /LongWeekend should return 200 and correct info for the long weekends 1`] = `
+{
+  "dayCount": Any<Number>,
+  "endDate": Any<String>,
+  "needBridgeDay": Any<Boolean>,
+  "startDate": Any<String>,
+}
+`;
+
+exports[`Nager.Date API LongWeekend /LongWeekend should return 200 and correct info for the long weekends 2`] = `
+{
+  "dayCount": Any<Number>,
+  "endDate": Any<String>,
+  "needBridgeDay": Any<Boolean>,
+  "startDate": Any<String>,
+}
+`;
+
+exports[`Nager.Date API LongWeekend /LongWeekend should return 200 and correct info for the long weekends 3`] = `
+{
+  "dayCount": Any<Number>,
+  "endDate": Any<String>,
+  "needBridgeDay": Any<Boolean>,
+  "startDate": Any<String>,
+}
+`;
+
+exports[`Nager.Date API LongWeekend /LongWeekend should return 200 and correct info for the long weekends 4`] = `
+{
+  "dayCount": Any<Number>,
+  "endDate": Any<String>,
+  "needBridgeDay": Any<Boolean>,
+  "startDate": Any<String>,
+}
+`;

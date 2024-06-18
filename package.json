@@ -1,0 +1,39 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "tsc && pm2 start dist/index.js --no-daemon --name cicdapp",
+      "stop": "rm -rf dist && pm2 stop cicdapp",
+      "test": "jest src/test/unit src/test/integration",
+      "test:coverage": "jest src/test/unit src/test/integration --coverage",
+      "test:e2e": "jest src/test/e2e"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/juasmartinezbelS4N/arq_soft_cicd.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/juasmartinezbelS4N/arq_soft_cicd/issues"
+    },
+    "homepage": "https://github.com/juasmartinezbelS4N/arq_soft_cicd#readme",
+    "devDependencies": {
+      "pm2": "^5.3.1",
+      "@types/jest": "^29.0.0",
+      "@types/node": "^18.7.16",
+      "@types/supertest": "^2.0.12",
+      "jest": "^29.0.3",
+      "supertest": "^6.2.4",
+      "ts-jest": "^29.0.0",
+      "ts-node": "^10.9.1",
+      "tsx": "^4.7.2",
+      "typescript": "^4.8.3"
+    },
+    "dependencies": {
+      "axios": "^0.27.2",
+      "pm2": "^5.3.1"
+    }
+}

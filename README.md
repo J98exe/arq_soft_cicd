@@ -1,6 +1,6 @@
 # Welcome to Holidays Verifier
 
-This is a simple program that runs an API to verify holidays given an specific country and year
+This is a simple program that runs an API to verify holidays given an specific country and year.
 In order to run this program, you have to run the following commands:
 - `npm install` to install all the dependencies
 - `npm start` to compile the program and run it
